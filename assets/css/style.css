@@ -1,0 +1,79 @@
+
+
+.form1  {
+        border: 1px solid #250202;
+        padding: 5rem;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        margin-top: 2rem;
+        width: 50%;
+        margin-bottom: 2rem;
+
+}
+
+
+form {
+
+    width: 50%; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    background-color: #f0f0f0;
+       
+}
+
+form p{
+
+   font-weight: bold; 
+   text-align: center;
+   margin-top: auto;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: x-large;
+}
+
+
+
+.container-fluid{
+
+    background-color: blueviolet;
+
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content:end;
+}
+
+
+.navbar-brand {
+    color: #ffffff; /* Cambia el color de la marca */
+    font-size: 2rem;
+}
+  
+.navbar-nav a {
+    color: #ffffff; /* Cambia el color de los enlaces */
+
+}
+
+.navbar-toggler{
+
+
+    color: aliceblue;
+}
+
+.zoominic {
+    width: 200px;
+    height: 150px;
+
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.zoom {
+    transform: scale(2);
+}
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
